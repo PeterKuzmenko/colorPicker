@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorPicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left">
+            <div class="canvas-block">
+                <canvas id="canvas" width="400" height="300"></canvas>
+                <div id="pointer" class="pointer"></div>
+            </div>
+            <div class="choose-color-line">
+                <canvas id="line" width="400" height="10"></canvas>
+                <div id="line-pointer" class="pointer"></div>
+            </div>
+        </div>
+    
+        <div class="output">
+            <div class="color" id="color"></div>
+            <p id="rgb">rgb(255, 254, 0)</p>
+            <p id="hex">#fffe00</p>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
